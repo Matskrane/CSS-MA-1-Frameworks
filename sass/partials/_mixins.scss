@@ -1,0 +1,15 @@
+@use 'variables';
+
+@mixin customButton($radius: 6px) {
+	background-color: wheat;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#333;
+	font-family: variables.$fontFamily;
+	font-size:15px;
+    font-weight: bold;
+	padding:6px 15px;
+	text-decoration:none;
+}

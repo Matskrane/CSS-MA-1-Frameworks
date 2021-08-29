@@ -1,0 +1,11 @@
+@use 'variables';
+@use 'mixins';
+
+
+
+.showcase-card h2 {
+    border-bottom: variables.$borderBottom;
+    border-width: 5px;
+    padding-bottom: 35px;
+    margin: 0 20px;
+}
